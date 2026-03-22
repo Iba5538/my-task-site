@@ -1,0 +1,27 @@
+:root {
+    --radius: 18px; [cite: 47]
+    --bg: #f6f7fb; [cite: 49]
+}
+body { background: var(--bg); } [cite: 50]
+.card-soft {
+    border: 0; [cite: 53]
+    border-radius: var(--radius); [cite: 54]
+    box-shadow: 0 10px 30px rgba(0,0,0,.08); [cite: 55]
+    background: #fff;
+}
+.hero-gradient {
+    border-radius: 26px; [cite: 58]
+    background: linear-gradient(90deg, #5a6df6 0%, #9b52f2 45%, #ff4d7b 100%); [cite: 60]
+    color: #fff;
+}
+.bottom-nav {
+    position: fixed; [cite: 75]
+    left: 0; right: 0; bottom: 0; [cite: 76]
+    background: rgba(255,255,255,.92); [cite: 77]
+    backdrop-filter: blur(10px); [cite: 78]
+    padding: .6rem .8rem; [cite: 80]
+}
+.bottom-nav a { text-decoration: none; color: #6b7280; font-size: 12px; } [cite: 83, 84, 86]
+.bottom-nav a.active { color: #0ea5e9; } [cite: 88]
+.page-wrap { padding-bottom: 90px; } [cite: 89]
+.pill { border-radius: 999px; padding: .55rem 1rem; font-weight: 600; background: #fff; border: 1px solid rgba(0,0,0,.06); } [cite: 61, 63, 64, 65, 66, 67]
